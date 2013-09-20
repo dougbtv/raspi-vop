@@ -10,5 +10,6 @@ var address = constants.I2C_ADDRESS;
 var wire = new i2c(address, {device: constants.I2C_DEVICE}); // point to your i2c address, debug provides REPL interface
 
 // Add an interface to our wire object.
-wireInterface = new WireInterface(wire);
+wireInterface = new WireInterface(wire,constants);
 wireInterface.foo();
+// wireInterface.bar();
