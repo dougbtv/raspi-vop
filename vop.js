@@ -11,5 +11,10 @@ var wire = new i2c(address, {device: constants.I2C_DEVICE}); // point to your i2
 
 // Add an interface to our wire object.
 wireInterface = new WireInterface(wire,constants);
-wireInterface.foo();
-// wireInterface.bar();
+wireInterface.foo(14,false,function(err,result){
+        console.log("callback error",err);
+        console.log("callback result",result);
+
+});
+
+wireInterface.bar();

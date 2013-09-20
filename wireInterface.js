@@ -1,17 +1,26 @@
+// -----------------------------------------------------------------
+// -- Wire Interface : Performs the i2c handling over the wire.
+// -----------------------------------------------------------------
+
 // Don't forget the i2c module docs @ https://github.com/kelly/node-i2c
+
+// Here it takes the wire object, from the i2c module, and constants module.
 
 module.exports = function(wire,constants) {
 
-	// Here's the wire object, from the i2c module.
-	
+	this.last_error = '';
 	
 	// Now, let's create a method to write a command.
-	this.foo = function() {
+	this.foo = function(command,is_int,callback) {
+
+		// Here's our error flag;
+		is_error = false;
 
 		// Firstly, we write the first three bytes of the command.
 		// The first byte is the command itself.
 		// The next are two parameter bytes.
-		wire.writeBytes(0x0D, [0x02, 0x03], function(err) {
+		// Note, it will take a number from 0-255 and pack it as a byte automatically.
+		wire.writeBytes(0x0E, [0x02, 0x03], function(err) {
 
 			if (!err) {
 
@@ -29,22 +38,38 @@ module.exports = function(wire,constants) {
 							// There's more fleshed out modules, but, we're talking a few bytes.
 							// http://nodejs.org/api/buffer.html
 							error = buf.readUInt8(0);
-							command = buf.readUInt8(1);
+							readback_command = buf.readUInt8(1);
 							value = buf.readUInt16BE(2);
 
 							this.debug(error,'error');
-							this.debug(command,'command');
+							this.debug(readback_command,'readback_command');
 							this.debug(value,'value');
+
+							// We check that we got back the command we sent (it's kind of our error checking byte.)
+							if (readback_command == command) {
+
+
+								// Execute the callback if the script asked for it.
+								callback && callback.call( this, error, value );
+
+							} else {
+
+								this.errorMessage('readback_command not returned properly',readback_command);
+								is_error = true;
+								
+							}
 
 						} else {
 
-							console.log('Unexpected buffer length',buf);
+							this.errorMessage('Unexpected buffer length',buf);
+							is_error = true;
 
 						}
 
 					} else {
 
-						console.log('error reading bytes via i2c',err);
+						this.errorMessage('error reading bytes via i2c',err);
+						is_error = true;
 
 					}
 
@@ -52,7 +77,8 @@ module.exports = function(wire,constants) {
 
 			} else {
 
-				console.log('error writing bytes via i2c',err);
+				this.errorMessage('error writing bytes via i2c',err);
+				is_error = true;
 
 			} 
 				
@@ -66,6 +92,12 @@ module.exports = function(wire,constants) {
 		console.log("another command!");
 
 	};
+
+	this.errorMessage = function(message,item) {
+
+		console.log("ERROR: " + message,item);
+
+	}
 
 	// ---------------------- Debug output.
 
@@ -91,4 +123,21 @@ wire.scan(function(err, data) {
   // result contains an array of addresses
         console.log(data);
 });
+*/
+
+/* callback example
+
+
+function callbacks_with_call( arg1, arg2, callback ){
+  console.log( 'do something here' );
+ 
+  var result1 = arg1.replace( 'argument', 'result' ),
+      result2 = arg2.replace( 'argument', 'result' );
+ 
+  this.data = 'i am some data that can be use for the callback function with `this` key word';
+ 
+  // if callback exist execute it
+  callback && callback.call( this, result1, result2 );
+}
+
 */
