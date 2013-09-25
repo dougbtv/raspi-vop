@@ -10,7 +10,7 @@ function define(name, value) {
 }
 
 // ---------------------------------- Debug constants.
-define('DEBUG',true);
+define('DEBUG',false);
 
 //----------------------------------- i2c Constants
 define("I2C_ADDRESS",0x04);
@@ -20,3 +20,16 @@ define("I2C_DEVICE",'/dev/i2c-1');
 
  define('END_OF_COMMAND',0x0A);
  define('NUMBER_RETURN_BYTES',4);
+
+// ---------------------------------- Command definitions.
+
+define('CMD_GET_IGNITION_STATE', 11);
+define('CMD_GET_LAST_IGNITION_CHANGE_SECONDS', 12);
+define('CMD_GET_LAST_IGNITION_CHANGE_MINUTES', 13);
+define('CMD_ECHO', 14);
+define('CMD_PAT_WATCHDOG', 15);
+
+define('CMD_DEBUG_SET_IGN_DETECT', 100);
+define('CMD_DEBUG_SET_IGN_STATE', 101);
+define('CMD_DEBUG_GET_IGN_DETECT', 102);
+define('CMD_DEBUG_GET_TEST_VALUE', 103);
