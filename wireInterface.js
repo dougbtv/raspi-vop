@@ -11,6 +11,25 @@ module.exports = function(wire,constants) {
 	this.last_error = '';
 
 	// ---------------------------------------------------------
+	// -- patTheDog : Pat the watchdog. Woof! woof! good dog.
+
+	this.patTheDog = function(callback) {
+
+		this.issueCommand(constants.CMD_PAT_WATCHDOG,0,true,function(err) {
+
+			// Handle potential errors.			
+			if (err) {
+				this.errorMessage('Damn, watchdog pat error while trying to pat',err);
+			}
+
+			// Return in a callback.
+			callback && callback.call( this, err );
+
+		});
+
+	};
+
+	// ---------------------------------------------------------
 	// -- ignitionLastChanged : Get the last time the ignition was changed.
 	// -- Takes in_minutes as a parameter. If in_minutes is true, returns the time in minutes.
 	// -- Maximum for seconds is approximately 18 hours. (before it rolls over)
@@ -33,7 +52,7 @@ module.exports = function(wire,constants) {
 			}
 
 			// Return in a callback.
-			callback && callback.call( this, res, err);
+			callback && callback.call( this, res, err );
 
 		});
 
@@ -231,7 +250,7 @@ module.exports = function(wire,constants) {
 
 	this.debugSetIgnitionManually = function(state,callback) {
 
-		console.log("setting state: ",state);
+		// console.log("setting state: ",state);
 
 		set_state = 0;
 		if (state) {

@@ -20,6 +20,7 @@
   ],
   "dependencies" : {
     "dissolve"   :  "*",
+    "moment"   :  "*",
     "i2c"   :  "*"
   }
 }

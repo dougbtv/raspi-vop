@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="38.451494"
-     inkscape:cy="-524.05372"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="211.08837"
+     inkscape:cy="-158.20691"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1035,12 +1035,12 @@
          x="-568.2381"
          y="1153.774"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
-         id="tspan3519">Ignition goes off, pi doesn't power</tspan><tspan
+         id="tspan3519">Ignition goes off, pi doesn't actually</tspan><tspan
          sodipodi:role="line"
          x="-568.2381"
          y="1184.6466"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
-         id="tspan3523">down.</tspan></text>
+         id="tspan3523">shut itself down.</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 354.71395,2098.8396 c 123.9006,20.2256 150.6485,106.9209 287.85717,47.8391 l 9.23495,24.1842 8.64322,-26.1178 c 232.20688,71.6578 203.14045,-27.0374 328.5504,-45.9055"
