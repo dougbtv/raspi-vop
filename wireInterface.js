@@ -180,6 +180,15 @@ module.exports = function(wire,constants) {
 		
 	};
 
+	this.echo = function(byte1,byte2,callback) {
+
+		this.issueCommand(constants.CMD_ECHO,[byte1,byte2],false,function(err,res) {
+			callback && callback.call( this, res, err);
+		});
+
+	};
+
+
 	// --------------------------------------------------------------------------------------
 	// -- DEBUG ROUTINES --> Used for testing logical flow without physical interaction.
 	// ...Chances are you may never need these.
@@ -238,6 +247,14 @@ module.exports = function(wire,constants) {
 	this.debugGetTestValue = function(callback) {
 
 		this.issueCommand(constants.CMD_DEBUG_GET_TEST_VALUE,0,true,function(err,res) {
+			callback && callback.call( this, res, err);
+		});
+
+	};
+
+	this.debugGetWatchDogState = function(callback) {
+
+		this.issueCommand(constants.CMD_DEBUG_GET_WDT_STATE,0,true,function(err,res) {
 			callback && callback.call( this, res, err);
 		});
 

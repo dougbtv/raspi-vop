@@ -1,0 +1,1487 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448"
+   height="1052.3622"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="timing_diagram.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="38.451494"
+     inkscape:cy="-524.05372"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showborder="false"
+     units="mm"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="true"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-page="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       orientation="0,1"
+       position="-1088.9444,1062.6805"
+       id="guide3019" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-1014.1932,353.55339"
+       id="guide3021" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-1248.5485,959.64492"
+       id="guide3023" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-975.80736,779.83776"
+       id="guide3025" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-1423.3049,708.66142"
+       id="guide3818" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-1424.3151,531.49606"
+       id="guide3820" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-1127.8353,442.44682"
+       id="guide3860" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-989.94949,-438.4062"
+       id="guide3273" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-856.60936,-617.20321"
+       id="guide3275" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-928.33019,-687.91388"
+       id="guide3277" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-897.01546,-866.71088"
+       id="guide3279" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-695.71429,-955.71429"
+       id="guide3281" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-2.5390623e-6)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.54330707;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1420.1785,-9.3955997 3688.5714,0"
+       id="path2985"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3005"
+       d="m -1420.1785,699.04245 3697.1429,0"
+       style="fill:none;stroke:#000000;stroke-width:3.54330707;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.54330709;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1422.2948,-111.21453 0,912.93987"
+       id="path3009"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1423.3049,272.52443 173.8227,0 -0.4184,-179.807165 857.04347,0.0069 -31.4286,179.800305 177.15503,0 2.64176,-179.807167 978.77465,0.01298 41.42861,-0.01302 -1.55001,179.807165 434.88869,0 966.4527,0"
+       id="path3011"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:65.89097595px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="-1886.4327"
+       y="199.84625"
+       id="text3027"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3029"
+         x="-1886.4327"
+         y="199.84625"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Ignition State</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:65.89097595px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="-1847.2676"
+       y="448.07718"
+       id="text3027-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3029-1"
+         x="-1847.2676"
+         y="448.07718"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Power State</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3843"
+       y="625.91534"
+       x="-1932.9819"
+       style="font-size:65.89097595px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"><tspan
+         y="625.91534"
+         x="-1932.9819"
+         id="tspan3845"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Watchdog Pats</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3847"
+       d="m -1424.3151,520.86613 171.9758,0 -0.4185,-177.65134 825.61496,0.007 5.71428,74.28667 75.6465,-15.27629 -17.05128,118.63436 114.3817,0 0.2198,-177.16536 676.80275,-4e-4 1.42942,177.16536 191.42824,0 -0.0956,-177.16536 301.52296,-0.21078 0.002,177.37614 312.45367,0 961.6227,0"
+       style="fill:none;stroke:#aa0000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3849"
+       d="m -1250.8662,-98.357387 0,912.939867"
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598425000000013;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425000000013, 17.00787401999999915;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3851"
+       y="-724.383"
+       x="-1025.1993"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"><tspan
+         y="-724.383"
+         x="-1025.1993"
+         id="tspan3853"
+         sodipodi:role="line"
+         style="-inkscape-font-specification:Century Schoolbook L Medium;font-family:Century Schoolbook L;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal">Ignition on, power on.</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       id="path3858"
+       sodipodi:cx="-1037.4266"
+       sodipodi:cy="621.02704"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       transform="translate(420.68605,-11.428569)" />
+    <path
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       d="m -710.77612,-98.357387 0,912.939867"
+       id="path3862"
+       inkscape:connector-curvature="0" />
+    <text
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="-555.71796"
+       y="-453.32779"
+       id="text3864"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3866"
+         x="-555.71796"
+         y="-453.32779"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Watchdog Pats begin,</tspan><tspan
+         sodipodi:role="line"
+         x="-555.71796"
+         y="-422.45526"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         id="tspan3215">before booting grace period ends.</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1251.4286,698.80879 c 123.9006,20.22559 150.6485,106.92091 287.85717,47.83911 l 9.23495,24.18418 8.64322,-26.11783 c 232.20688,71.65786 203.14045,-27.03735 328.5504,-45.90546"
+       id="path3868"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       transform="translate(0,2.5390623e-6)" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="-1067.2915"
+       y="799.68402"
+       id="text3870"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-1067.2915"
+         y="799.68402"
+         id="tspan3874"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Booting grace period</tspan></text>
+    <path
+       transform="translate(505.68605,-11.428569)"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       sodipodi:ry="9.0913725"
+       sodipodi:rx="9.0913725"
+       sodipodi:cy="621.02704"
+       sodipodi:cx="-1037.4266"
+       id="path3878"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       id="path3880"
+       sodipodi:cx="-1037.4266"
+       sodipodi:cy="621.02704"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       transform="translate(596.40034,-11.428569)" />
+    <g
+       id="g3893"
+       transform="translate(-193.94929,40.406102)">
+      <path
+         d="M -258.79079,774.85466 C 7.1424827,-127.86235 -408.37443,948.42298 -177.43307,-102.8123 l 31.42857,-38.57143 m 0,0 c -230.94136,1051.23528 184.575554,-25.05005 -81.35772,877.66696 l -31.42857,38.57143"
+         style="fill:#ffffff;stroke:#000000;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3886"
+         inkscape:connector-curvature="0" />
+      <rect
+         transform="translate(0,2.5390623e-6)"
+         y="728.07648"
+         x="-284.28571"
+         height="71.428574"
+         width="84.285713"
+         id="rect3889"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3891"
+         width="84.285713"
+         height="71.428574"
+         x="-208.57143"
+         y="-157.6378" />
+    </g>
+    <path
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       d="m -248.00906,-98.357387 0,912.939867"
+       id="path3898"
+       inkscape:connector-curvature="0" />
+    <text
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="-156.69957"
+       y="-222.95442"
+       id="text3900"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         sodipodi:role="line"
+         id="tspan3902"
+         x="-156.69957"
+         y="-222.95442">Ignition on, power on.</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3904"
+       d="m -247.33697,698.80879 c 123.9006,20.22559 150.6485,106.92091 287.85717,47.83911 l 9.23495,24.18418 8.64322,-26.11783 c 232.20688,71.65786 203.14045,-27.03735 328.5504,-45.90546"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3906"
+       y="799.68402"
+       x="-63.199875"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         id="tspan3908"
+         y="799.68402"
+         x="-63.199875"
+         sodipodi:role="line">Booting grace period</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3910"
+       d="m 385.58092,-98.357387 0,912.939867"
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3912"
+       y="94.850731"
+       x="393.75507"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="94.850731"
+         x="393.75507"
+         id="tspan3914"
+         sodipodi:role="line">Watchdog Pats fail.</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       id="path3916"
+       sodipodi:cx="-1037.4266"
+       sodipodi:cy="621.02704"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       transform="translate(327.8992,-11.428569)" />
+    <path
+       transform="translate(1422.7051,-11.428569)"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       sodipodi:ry="9.0913725"
+       sodipodi:rx="9.0913725"
+       sodipodi:cy="621.02704"
+       sodipodi:cx="-1037.4266"
+       id="path3918"
+       style="fill:#ffffff;stroke:#800000;stroke-width:3.54330709;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       d="m 428.00733,-70.073116 0,884.655596"
+       id="path3920"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="411.4761"
+       y="138.90826"
+       id="text3922"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3924"
+         x="411.4761"
+         y="138.90826"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Shutdown power.</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3926"
+       y="904.98907"
+       x="-1163.5757"
+       style="font-size:65.89097595px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="904.98907"
+         x="-1163.5757"
+         id="tspan3928"
+         sodipodi:role="line">Normal Boot.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:65.89097595px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="83.985222"
+       y="902.13196"
+       id="text3930"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3932"
+         x="83.985214"
+         y="902.13196"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Boot fails.</tspan><tspan
+         sodipodi:role="line"
+         x="83.985222"
+         y="975.02643"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         id="tspan3978">(ignition on)</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3934"
+       d="m 620.56237,-98.357387 0,912.939867"
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3936"
+       y="211.3313"
+       x="595.50537"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"><tspan
+         y="211.3313"
+         x="595.50537"
+         id="tspan3938"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Re-power on.</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.0629921;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 423.87352,698.59071 c 33.93108,23.48119 15.64192,118.17504 80.24942,45.98595 l 13.63256,26.4735 7.017,-27.70456 c 73.37805,72.0918 73.4787,-44.5368 99.53717,-44.75489"
+       id="path3940"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="515.48724"
+       y="798.25543"
+       id="text3942"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="518.91217"
+         y="798.25543"
+         id="tspan3944"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Minimum Off </tspan><tspan
+         sodipodi:role="line"
+         x="515.48724"
+         y="829.12799"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         id="tspan3946">Period</tspan></text>
+    <g
+       transform="translate(934.62214,40.406102)"
+       id="g3948">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3950"
+         style="fill:#ffffff;stroke:#000000;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="M -258.79079,774.85466 C 7.1424827,-127.86235 -408.37443,948.42298 -177.43307,-102.8123 l 31.42857,-38.57143 m 0,0 c -230.94136,1051.23528 184.575554,-25.05005 -81.35772,877.66696 l -31.42857,38.57143" />
+      <rect
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3952"
+         width="84.285713"
+         height="71.428574"
+         x="-284.28571"
+         y="728.07648"
+         transform="translate(0,2.5390623e-6)" />
+      <rect
+         y="-157.6378"
+         x="-208.57143"
+         height="71.428574"
+         width="84.285713"
+         id="rect3954"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <path
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       d="m 879.86663,-98.357387 0,912.939867"
+       id="path3956"
+       inkscape:connector-curvature="0" />
+    <text
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="821.81903"
+       y="341.99359"
+       id="text3958"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3960"
+         x="821.81903"
+         y="341.99359"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Watchdog Pats fail.</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;stroke:#800000;stroke-width:3.54330707;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3962"
+       sodipodi:cx="-1037.4266"
+       sodipodi:cy="621.02704"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       transform="translate(1916.9908,-11.428569)" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3964"
+       d="m 922.29304,-70.073116 0,884.655596"
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3966"
+       y="386.05112"
+       x="839.5401"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="386.05112"
+         x="839.5401"
+         id="tspan3968"
+         sodipodi:role="line">Shutdown power.</tspan></text>
+    <g
+       id="g3970"
+       transform="translate(1427.4793,40.406102)">
+      <path
+         d="M -258.79079,774.85466 C 7.1424827,-127.86235 -408.37443,948.42298 -177.43307,-102.8123 l 31.42857,-38.57143 m 0,0 c -230.94136,1051.23528 184.575554,-25.05005 -81.35772,877.66696 l -31.42857,38.57143"
+         style="fill:#ffffff;stroke:#000000;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3972"
+         inkscape:connector-curvature="0" />
+      <rect
+         transform="translate(0,2.5390623e-6)"
+         y="728.07648"
+         x="-284.28571"
+         height="71.428574"
+         width="84.285713"
+         id="rect3974"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3976"
+         width="84.285713"
+         height="71.428574"
+         x="-208.57143"
+         y="-157.6378" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3980"
+       y="902.13196"
+       x="972.55664"
+       style="font-size:65.89097595px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="902.13196"
+         x="972.55664"
+         id="tspan3982"
+         sodipodi:role="line">Boot fails.</tspan><tspan
+         id="tspan3984"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="975.02643"
+         x="972.55664"
+         sodipodi:role="line">(ignition off)</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3986"
+       d="m -1420.1785,1388.6555 5177.1428,0"
+       style="fill:none;stroke:#000000;stroke-width:3.54330707;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:3.54330707;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1420.1785,2097.0936 5210,0"
+       id="path3988"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3990"
+       d="m -1422.2948,1286.8366 0,912.9399"
+       style="fill:none;stroke:#000000;stroke-width:3.54330707;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       sodipodi:nodetypes="cccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3992"
+       d="m -1424.7335,1491.2899 174.8329,-0.5215 9.9006,0.01 1.4286,179.8003 991.4407,0 43.08485,-0.112 28.27823,-179.6983 256.982765,0 0.808005,178.797 285.85809,0 406.28307,1.0132 392.03159,-1.0132 29.5184,-178.797 244.2857,0 -1.4286,178.797 605.7143,0 0.7004,-178.797 1204.8053,0"
+       style="fill:none;stroke:#00ff00;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3994"
+       y="1597.8973"
+       x="-1886.4327"
+       style="font-size:65.89097595px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="1597.8973"
+         x="-1886.4327"
+         id="tspan3996"
+         sodipodi:role="line">Ignition State</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3998"
+       y="1846.1283"
+       x="-1847.2676"
+       style="font-size:65.89097595px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="1846.1283"
+         x="-1847.2676"
+         id="tspan4000"
+         sodipodi:role="line">Power State</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:65.89097595px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="-1932.9819"
+       y="2023.9664"
+       id="text4002"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         sodipodi:role="line"
+         id="tspan4004"
+         x="-1932.9819"
+         y="2023.9664">Watchdog Pats</tspan></text>
+    <path
+       style="fill:none;stroke:#aa0000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1420.2745,1740.2761 c 352.5877,2.0786 746.60494,0.9958 1099.19767,0.9998 l -0.34026,177.6448 72.96545,0 110.06078,0.042 2.52518,-96.9548 -76.99131,8.82 -0.0589,-90.5519 293.337447,0 842.434363,1.268 237.14258,-0.9664 131.1293,-0.3015 1048.8724,0 -0.4288,178.797 200.8971,0 1.1384,-178.797 1231.0417,0"
+       id="path4006"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccc" />
+    <path
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       d="m -1378.1454,1299.6937 0,912.9399"
+       id="path4008"
+       inkscape:connector-curvature="0" />
+    <text
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="-1834.4519"
+       y="422.72519"
+       id="text4010"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         sodipodi:role="line"
+         id="tspan4012"
+         x="-1834.4519"
+         y="422.72519">Ignition on, Pi booted.</tspan></text>
+    <path
+       transform="translate(-246.45681,1386.6226)"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       sodipodi:ry="9.0913725"
+       sodipodi:rx="9.0913725"
+       sodipodi:cy="621.02704"
+       sodipodi:cx="-1037.4266"
+       id="path4014"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4016"
+       d="m -970.77611,1299.6937 0,912.9399"
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4018"
+       y="627.41998"
+       x="-1479.9102"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="627.41998"
+         x="-1479.9102"
+         id="tspan4020"
+         sodipodi:role="line">Watchdog pats fail.</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4022"
+       d="m -1378.2027,2098.8802 c -2.3685,14.6698 7.7119,38.7356 38.8546,13.999 l 9.235,24.1842 8.6432,-26.1178 c 36.6769,24.3787 43.2915,9.3766 39.6467,-13.5806"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4024"
+       y="2176.522"
+       x="-1323.371"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         id="tspan4026"
+         y="2176.522"
+         x="-1323.371"
+         sodipodi:role="line">Watchdog Pat</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="2207.3945"
+         x="-1323.371"
+         sodipodi:role="line"
+         id="tspan3287">Interval</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       id="path4028"
+       sodipodi:cx="-1037.4266"
+       sodipodi:cy="621.02704"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       transform="translate(-161.45681,1386.6226)" />
+    <path
+       transform="translate(-70.742517,1386.6226)"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       sodipodi:ry="9.0913725"
+       sodipodi:rx="9.0913725"
+       sodipodi:cy="621.02704"
+       sodipodi:cx="-1037.4266"
+       id="path4030"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       transform="translate(-339.24366,1386.6226)"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       sodipodi:ry="9.0913725"
+       sodipodi:rx="9.0913725"
+       sodipodi:cy="621.02704"
+       sodipodi:cx="-1037.4266"
+       id="path4058"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <text
+       xml:space="preserve"
+       style="font-size:65.89097595px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="-1163.5757"
+       y="2375.0403"
+       id="text4068"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4070"
+         x="-1163.5757"
+         y="2375.0403"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Normal Shutdown</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;stroke:#800000;stroke-width:3.54330707;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3283"
+       sodipodi:cx="-1037.4266"
+       sodipodi:cy="621.02704"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       transform="translate(67.347957,1386.7857)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1104.4514,2098.8802 c -2.3685,14.6698 29.9353,39.2407 61.078,14.5041 l 9.235,24.1842 8.6432,-26.1178 c 36.67686,24.3787 61.4742,9.8817 57.8294,-13.0755"
+       id="path3289"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="-1037.4978"
+       y="2176.522"
+       id="text3291"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan3295"
+         sodipodi:role="line"
+         x="-1037.4978"
+         y="2176.522"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Watchdog Pat</tspan><tspan
+         sodipodi:role="line"
+         x="-1037.4978"
+         y="2207.3945"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         id="tspan3299">Over Interval</tspan></text>
+    <path
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       d="m -1109.3475,1319.8968 0,892.7368"
+       id="path3301"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="-1614.0586"
+       y="582.62915"
+       id="text3303"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3305"
+         x="-1614.0586"
+         y="582.62915"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Watchdog pats end.</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3307"
+       d="m -1239.3475,1299.6937 0,912.9399"
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3309"
+       y="493.13428"
+       x="-1712.4998"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="493.13428"
+         x="-1712.4998"
+         id="tspan3311"
+         sodipodi:role="line">Ignition goes off, Pi shuts down</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="524.00684"
+         x="-1712.4998"
+         sodipodi:role="line"
+         id="tspan3313">on it's own volition.</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3315"
+       d="m -966.56558,2098.8396 c 123.9006,20.2256 150.6485,106.9209 287.85717,47.8391 l 9.23495,24.1842 8.64322,-26.1178 c 232.20688,71.6578 203.14045,-27.0374 328.5504,-45.9055"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3317"
+       y="2207.9504"
+       x="-673.2121"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"><tspan
+         id="tspan3321"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="2207.9504"
+         x="-673.2121"
+         sodipodi:role="line">Shutdown Interval</tspan></text>
+    <path
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       d="m -322.20468,1299.6937 0,912.9399"
+       id="path3325"
+       inkscape:connector-curvature="0" />
+    <text
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="-918.23083"
+       y="951.70569"
+       id="text3327"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3329"
+         x="-918.23083"
+         y="951.70569"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Power down after</tspan><tspan
+         sodipodi:role="line"
+         x="-918.23083"
+         y="982.57825"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         id="tspan3331">shutdown interval.</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3333"
+       y="2375.0403"
+       x="-12.147112"
+       style="font-size:65.89097595px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="2375.0403"
+         x="-12.147112"
+         id="tspan3335"
+         sodipodi:role="line">Shutdown, watchdog recovery</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3337"
+       d="m -56.865871,1299.6937 0,912.9399"
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3339"
+       y="1083.365"
+       x="-690.19025"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"><tspan
+         y="1083.365"
+         x="-690.19025"
+         id="tspan3341"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Ignition on, Pi booted.</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       id="path3343"
+       sodipodi:cx="-1037.4266"
+       sodipodi:cy="621.02704"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       transform="translate(1074.8227,1386.6226)" />
+    <path
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       d="m 350.50342,1299.6937 0,912.9399"
+       id="path3345"
+       inkscape:connector-curvature="0" />
+    <text
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="-335.64853"
+       y="1288.0597"
+       id="text3347"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3349"
+         x="-335.64853"
+         y="1288.0597"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Watchdog pats fail.</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -56.923171,2098.8802 c -2.3685,14.6698 7.7119,38.7356 38.8546,13.999 l 9.2349996,24.1842 8.64320002,-26.1178 C 36.486529,2135.3243 43.101129,2120.3222 39.456329,2097.365"
+       id="path3351"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="-2.0914431"
+       y="2176.522"
+       id="text3353"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-2.0914431"
+         y="2176.522"
+         id="tspan3355"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Watchdog Pat</tspan><tspan
+         id="tspan3357"
+         sodipodi:role="line"
+         x="-2.0914431"
+         y="2207.3945"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Interval</tspan></text>
+    <path
+       transform="translate(1159.8227,1386.6226)"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       sodipodi:ry="9.0913725"
+       sodipodi:rx="9.0913725"
+       sodipodi:cy="621.02704"
+       sodipodi:cx="-1037.4266"
+       id="path3359"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       id="path3361"
+       sodipodi:cx="-1037.4266"
+       sodipodi:cy="621.02704"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       transform="translate(1250.537,1386.6226)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       id="path3363"
+       sodipodi:cx="-1037.4266"
+       sodipodi:cy="621.02704"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       transform="translate(982.03587,1386.6226)" />
+    <path
+       transform="translate(1388.6275,1386.7857)"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       sodipodi:ry="9.0913725"
+       sodipodi:rx="9.0913725"
+       sodipodi:cy="621.02704"
+       sodipodi:cx="-1037.4266"
+       id="path3365"
+       style="fill:#ffffff;stroke:#800000;stroke-width:3.54330707;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3367"
+       d="m 216.82813,2098.8802 c -2.3685,14.6698 29.9353,39.2407 61.078,14.5041 l 9.235,24.1842 8.6432,-26.1178 c 36.67686,24.3787 61.4742,9.8817 57.8294,-13.0755"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3369"
+       y="2176.522"
+       x="283.78174"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="2176.522"
+         x="283.78174"
+         sodipodi:role="line"
+         id="tspan3371">Watchdog Pat</tspan><tspan
+         id="tspan3373"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="2207.3945"
+         x="283.78174"
+         sodipodi:role="line">Over Interval</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3375"
+       d="m 211.93203,1319.8968 0,892.7368"
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3377"
+       y="1243.2689"
+       x="-469.79697"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="1243.2689"
+         x="-469.79697"
+         id="tspan3379"
+         sodipodi:role="line">Watchdog pats end.</tspan></text>
+    <path
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       d="m 81.932029,1299.6937 0,912.9399"
+       id="path3381"
+       inkscape:connector-curvature="0" />
+    <text
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="-568.2381"
+       y="1153.774"
+       id="text3383"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-568.2381"
+         y="1153.774"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         id="tspan3519">Ignition goes off, pi doesn't power</tspan><tspan
+         sodipodi:role="line"
+         x="-568.2381"
+         y="1184.6466"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         id="tspan3523">down.</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 354.71395,2098.8396 c 123.9006,20.2256 150.6485,106.9209 287.85717,47.8391 l 9.23495,24.1842 8.64322,-26.1178 c 232.20688,71.6578 203.14045,-27.0374 328.5504,-45.9055"
+       id="path3389"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="648.06744"
+       y="2207.9504"
+       id="text3391"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="648.06744"
+         y="2207.9504"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         id="tspan3393">Shutdown Interval</tspan></text>
+    <path
+       transform="translate(1861.9656,1386.6226)"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       sodipodi:ry="9.0913725"
+       sodipodi:rx="9.0913725"
+       sodipodi:cy="621.02704"
+       sodipodi:cx="-1037.4266"
+       id="path3397"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       id="path3399"
+       sodipodi:cx="-1037.4266"
+       sodipodi:cy="621.02704"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       transform="translate(1946.9656,1386.6226)" />
+    <path
+       transform="translate(2037.6799,1386.6226)"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       sodipodi:ry="9.0913725"
+       sodipodi:rx="9.0913725"
+       sodipodi:cy="621.02704"
+       sodipodi:cx="-1037.4266"
+       id="path3401"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       transform="translate(1769.1787,1386.6226)"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       sodipodi:ry="9.0913725"
+       sodipodi:rx="9.0913725"
+       sodipodi:cy="621.02704"
+       sodipodi:cx="-1037.4266"
+       id="path3403"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       transform="translate(2125.3,1386.9395)"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       sodipodi:ry="9.0913725"
+       sodipodi:rx="9.0913725"
+       sodipodi:cy="621.02704"
+       sodipodi:cx="-1037.4266"
+       id="path3401-6"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3423"
+       d="m 730.32078,1299.6937 0,912.9399"
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3425"
+       y="1477.9684"
+       x="-6.7170486"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="1477.9684"
+         x="-6.7170486"
+         id="tspan3427"
+         sodipodi:role="line">Pats re-occur before shutdown</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="1508.8409"
+         x="-6.7170486"
+         sodipodi:role="line"
+         id="tspan3429">interval, power stays on.</tspan></text>
+    <path
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       d="m 1302.7995,1299.6937 0,912.9399"
+       id="path3439"
+       inkscape:connector-curvature="0" />
+    <text
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="487.31445"
+       y="1763.1976"
+       id="text3441"
+       sodipodi:linespacing="125%"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         sodipodi:role="line"
+         id="tspan3443"
+         x="487.31445"
+         y="1763.1976">Ignition on, Pi booted.</tspan></text>
+    <path
+       transform="translate(2434.488,1386.6226)"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       sodipodi:ry="9.0913725"
+       sodipodi:rx="9.0913725"
+       sodipodi:cy="621.02704"
+       sodipodi:cx="-1037.4266"
+       id="path3445"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3447"
+       d="m 1710.1687,1299.6937 0,912.9399"
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3449"
+       y="1967.8923"
+       x="841.8562"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="1967.8923"
+         x="841.8562"
+         id="tspan3451"
+         sodipodi:role="line">Watchdog pats fail.</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3453"
+       d="m 1302.7422,2098.8802 c -2.3685,14.6698 7.7119,38.7356 38.8546,13.999 l 9.235,24.1842 8.6432,-26.1178 c 36.6769,24.3787 43.2915,9.3766 39.6467,-13.5806"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3455"
+       y="2176.522"
+       x="1357.5739"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         id="tspan3457"
+         y="2176.522"
+         x="1357.5739"
+         sodipodi:role="line">Watchdog Pat</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="2207.3945"
+         x="1357.5739"
+         sodipodi:role="line"
+         id="tspan3459">Interval</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       id="path3461"
+       sodipodi:cx="-1037.4266"
+       sodipodi:cy="621.02704"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       transform="translate(2519.488,1386.6226)" />
+    <path
+       transform="translate(2610.2023,1386.6226)"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       sodipodi:ry="9.0913725"
+       sodipodi:rx="9.0913725"
+       sodipodi:cy="621.02704"
+       sodipodi:cx="-1037.4266"
+       id="path3463"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       transform="translate(2341.7012,1386.6226)"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       sodipodi:ry="9.0913725"
+       sodipodi:rx="9.0913725"
+       sodipodi:cy="621.02704"
+       sodipodi:cx="-1037.4266"
+       id="path3465"
+       style="fill:#aa0000;stroke:#ac9393;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;stroke:#800000;stroke-width:3.54330707;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3467"
+       sodipodi:cx="-1037.4266"
+       sodipodi:cy="621.02704"
+       sodipodi:rx="9.0913725"
+       sodipodi:ry="9.0913725"
+       d="m -1028.3353,621.02704 c 0,5.02102 -4.0703,9.09137 -9.0913,9.09137 -5.0211,0 -9.0914,-4.07035 -9.0914,-9.09137 0,-5.02103 4.0703,-9.09137 9.0914,-9.09137 5.021,0 9.0913,4.07034 9.0913,9.09137 z"
+       transform="translate(2748.2928,1386.7857)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1576.4935,2098.8802 c -2.3685,14.6698 29.9353,39.2407 61.078,14.5041 l 9.235,24.1842 8.6432,-26.1178 c 36.6768,24.3787 61.4742,9.8817 57.8294,-13.0755"
+       id="path3469"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="1643.447"
+       y="2176.522"
+       id="text3471"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan3473"
+         sodipodi:role="line"
+         x="1643.447"
+         y="2176.522"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Watchdog Pat</tspan><tspan
+         sodipodi:role="line"
+         x="1643.447"
+         y="2207.3945"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         id="tspan3475">Over Interval</tspan></text>
+    <path
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       d="m 1571.5974,1319.8968 0,892.7368"
+       id="path3477"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="707.70776"
+       y="1923.1016"
+       id="text3479"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3481"
+         x="707.70776"
+         y="1923.1016"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Watchdog pats end.</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3483"
+       d="m 1441.5974,1299.6937 0,912.9399"
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3485"
+       y="1833.6067"
+       x="609.2666"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="1833.6067"
+         x="609.2666"
+         id="tspan3487"
+         sodipodi:role="line">Ignition goes off, Pi shuts down</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="1864.4792"
+         x="609.2666"
+         sodipodi:role="line"
+         id="tspan3489">on it's own volition.</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3491"
+       d="m 1714.3793,2098.8396 c 123.9006,20.2256 150.6485,106.9209 287.8571,47.8391 l 9.235,24.1842 8.6432,-26.1178 c 232.2069,71.6578 203.1405,-27.0374 328.5504,-45.9055"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3493"
+       y="2207.9504"
+       x="2007.7328"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"><tspan
+         id="tspan3495"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="2207.9504"
+         x="2007.7328"
+         sodipodi:role="line">Shutdown Interval</tspan></text>
+    <path
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0"
+       d="m 2044.2718,1299.6937 0,912.9399"
+       id="path3505"
+       inkscape:connector-curvature="0" />
+    <text
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
+       xml:space="preserve"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="1131.198"
+       y="2134.9438"
+       id="text3507"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan3511"
+         sodipodi:role="line"
+         x="1131.198"
+         y="2134.9438"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Ignition comes up while pi is shutdown,</tspan><tspan
+         sodipodi:role="line"
+         x="1131.198"
+         y="2165.8164"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         id="tspan3529">but, inside the shutdown interval.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:65.89097595px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="1466.7162"
+       y="2375.0403"
+       id="text3513"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3515"
+         x="1466.7162"
+         y="2375.0403"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium">Shutdown, early ignition</tspan></text>
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1424.7335,1491.2899 174.8329,-0.5215 9.9006,0.01 1.4286,179.8003 991.4407,0 43.08485,-0.112 28.27823,-179.6983 256.982765,0 0.808005,178.797 285.85809,0 406.28307,1.0132 392.03159,-1.0132 29.5184,-178.797 244.2857,0 -1.4286,178.797 605.7143,0 0.7004,-178.797 1204.8053,0"
+       id="path3525"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3531"
+       d="m 2342.8432,1299.6937 0,912.9399"
+       style="fill:none;stroke:#ac9393;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.12598425, 17.00787402;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3533"
+       y="2284.2295"
+       x="1389.7684"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"><tspan
+         id="tspan3537"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="2284.2295"
+         x="1389.7684"
+         sodipodi:role="line">After shutdown interval, perform</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="2315.1021"
+         x="1389.7684"
+         sodipodi:role="line"
+         id="tspan3541">a reboot.</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3543"
+       d="m 2341.0164,2098.8764 c 33.9311,23.4812 15.6419,118.1751 80.2494,45.986 l 13.6326,26.4735 7.017,-27.7046 c 73.378,72.0918 73.4787,-44.5368 99.5371,-44.7549"
+       style="fill:none;stroke:#000000;stroke-width:1.0629921;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3545"
+       y="2198.5413"
+       x="2432.6301"
+       style="font-size:24.69802856px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         id="tspan3547"
+         y="2198.5413"
+         x="2436.0549"
+         sodipodi:role="line">Minimum Off </tspan><tspan
+         id="tspan3549"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         y="2229.4138"
+         x="2432.6301"
+         sodipodi:role="line">Period</tspan></text>
+    <g
+       transform="translate(2947.7796,1452.7429)"
+       id="g3551">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3553"
+         style="fill:#ffffff;stroke:#000000;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="M -258.79079,774.85466 C 7.1424827,-127.86235 -408.37443,948.42298 -177.43307,-102.8123 l 31.42857,-38.57143 m 0,0 c -230.94136,1051.23528 184.575554,-25.05005 -81.35772,877.66696 l -31.42857,38.57143" />
+      <rect
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3555"
+         width="84.285713"
+         height="71.428574"
+         x="-284.28571"
+         y="728.07648"
+         transform="translate(0,2.5390623e-6)" />
+      <rect
+         y="-157.6378"
+         x="-208.57143"
+         height="71.428574"
+         width="84.285713"
+         id="rect3557"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       transform="translate(22.065343,1452.7429)"
+       id="g4032">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4034"
+         style="fill:#ffffff;stroke:#000000;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="M -258.79079,774.85466 C 7.1424827,-127.86235 -408.37443,948.42298 -177.43307,-102.8123 l 31.42857,-38.57143 m 0,0 c -230.94136,1051.23528 184.575554,-25.05005 -81.35772,877.66696 l -31.42857,38.57143" />
+      <rect
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4036"
+         width="84.285713"
+         height="71.428574"
+         x="-284.28571"
+         y="728.07648"
+         transform="translate(0,2.5390623e-6)" />
+      <rect
+         y="-157.6378"
+         x="-208.57143"
+         height="71.428574"
+         width="84.285713"
+         id="rect4038"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       id="g3431"
+       transform="translate(1393.4939,1452.7429)">
+      <path
+         d="M -258.79079,774.85466 C 7.1424827,-127.86235 -408.37443,948.42298 -177.43307,-102.8123 l 31.42857,-38.57143 m 0,0 c -230.94136,1051.23528 184.575554,-25.05005 -81.35772,877.66696 l -31.42857,38.57143"
+         style="fill:#ffffff;stroke:#000000;stroke-width:2.12598419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3433"
+         inkscape:connector-curvature="0" />
+      <rect
+         transform="translate(0,2.5390623e-6)"
+         y="728.07648"
+         x="-284.28571"
+         height="71.428574"
+         width="84.285713"
+         id="rect3435"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.12598419;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3437"
+         width="84.285713"
+         height="71.428574"
+         x="-208.57143"
+         y="-157.6378" />
+    </g>
+  </g>
+</svg>

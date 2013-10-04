@@ -1,0 +1,25 @@
+{
+  "name": "raspi-vop",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Doug Smith <info@laboratoryb.org>",
+  "description": "An interface to the Raspberry Pi Vehicle Operating Platform, a device for running a raspberry pi in a vehicle.",
+  "scripts": {
+    "start": "node ./vop.js"
+  },
+  "main": "./vop.js",
+  "repository": {
+    "type": "svn",
+    "url": "https://code.google.com/p/raspi-vop/"
+  },
+  "keywords": [
+    "raspberry pi",
+    "i2c",
+    "arduino",
+    "raspberrypi"
+  ],
+  "dependencies" : {
+    "dissolve"   :  "*",
+    "i2c"   :  "*"
+  }
+}
