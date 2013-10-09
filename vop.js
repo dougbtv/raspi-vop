@@ -17,8 +17,9 @@ wireInterface = new WireInterface(wire,constants);
 // --------------------------------------------------
 // ----- Testing script.
 // --------------------------------------------------
+
 testPlan = new TestPlan(moment,wireInterface);
-testPlan.showInfo();
+testPlan.errorBlaster(10000);
 
 // -- Test Method, boot fails, but ignition is on (expect reboot)
 // testPlan.bootFailsIngitionON();

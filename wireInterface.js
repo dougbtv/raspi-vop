@@ -196,6 +196,11 @@ module.exports = function(wire,constants) {
 			is_error = true;
 
 		}
+
+		if (is_error) {
+			// Execute the callback if the script asked for it.
+			callback && callback.call( this, is_error, 0 );
+		}
 		
 	};
 

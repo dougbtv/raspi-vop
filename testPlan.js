@@ -7,6 +7,8 @@
 module.exports = function(moment,wireInterface) {
 
 
+	sprintf = require('sprintf');
+
 	// The instant where this begins.
 	zerosecond = moment().unix();
 	// console.log('zero second:',zerosecond);
@@ -256,6 +258,28 @@ module.exports = function(moment,wireInterface) {
 
 
 	};
+
+	this.errorBlaster = function(number_cycles) {
+
+		console.log("Processing " + number_cycles + " runs looking for errors.");
+
+		errors = 0;
+		for (i=0; i<number_cycles; i++) {
+
+			wireInterface.echo(254,253,function(bytes,err){
+				if (err) {
+					errors++;
+				}
+			});
+
+		}
+
+		percent = (errors / number_cycles) * 100;
+		percent = sprintf("%.02f",percent);
+		console.log("Errors on " + errors + " of " + number_cycles + " cycles. (" + percent + "%)");
+
+
+	}
 
 	this.showInfo = function() {
 
