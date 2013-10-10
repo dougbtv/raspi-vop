@@ -30,6 +30,134 @@ module.exports = function(wire,constants) {
 	};
 
 	// ---------------------------------------------------------
+	// -- setWatchDog : Set the watchdog on or off.
+
+	this.setWatchDog = function(state,callback) {
+
+		setstate = 0;
+		if (state) {
+			setstate = 1;
+		}
+
+		this.issueCommand(constants.CMD_SET_WATCHDOG,setstate,true,function(err) {
+
+			// Handle potential errors.			
+			if (err) {
+				this.errorMessage('Damn, couldnt set watchdog mode state',err);
+			}
+
+			// Return in a callback.
+			callback && callback.call( this, err );
+
+		});
+
+	}
+
+	// ---------------------------------------------------------
+	// -- getWatchDog : Check if watchdog mode is on or off.
+
+	this.getWatchDog = function(callback) {
+
+		this.issueCommand(constants.CMD_GET_WATCHDOG,0,true,function(err,res) {
+
+			// Handle potential errors.			
+			if (err) {
+				this.errorMessage('Shoot, couldnt get watchdog mode state',err);
+			}
+
+			state = false;
+			if (res > 0) {
+				state = true;
+			}
+
+			// Return in a callback.
+			callback && callback.call( this, state, err);
+
+		});
+
+	}
+
+
+	// -----------------------------------------------------------------------
+	// -- requestShutdown : Request a shutdown in N minutes or seconds.
+	
+	this.requestShutdown = function(in_minutes,time_value,callback) {
+
+		// Ok, that's all well and good....
+		// But, we gotta convert that number into two bytes.
+		// !bang
+		timevalue_bytes = this.integerToBytes(time_value);
+
+		// Issue the command for minutes or seconds, depending on context.
+		issue_command = constants.CMD_REQUEST_SHUTDOWN_SECONDS;
+		if (in_minutes) {
+			issue_command = constants.CMD_REQUEST_SHUTDOWN_MINUTES;
+		}
+
+		this.issueCommand(issue_command,[timevalue_bytes[0],timevalue_bytes[1]],false,function(err) {
+				callback && callback.call( this, err);
+		});
+		
+	};
+
+	// -----------------------------------------------------------------------
+	// -- integerToBytes : Package a 16-bit integer into 2 bytes.
+	
+	this.integerToBytes = function(integer) {
+
+		var buf = new Buffer(2);
+		buf.writeUInt16LE(integer, 0);
+		return buf;
+
+	}
+
+	// -----------------------------------------------------------------------
+	// -- getShutdownState : Check if a shutdown is in progress (from a request)
+	
+	this.getShutdownState = function(callback) {
+
+		this.issueCommand(constants.CMD_GET_SHUTDOWN_STATE,0,true,function(err,res) {
+
+			// Handle potential errors.			
+			if (err) {
+				this.errorMessage('Fudge, couldnt get shutdown state',err);
+			}
+
+			state = false;
+			if (res > 0) {
+				state = true;
+			}
+
+			// Return in a callback.
+			callback && callback.call( this, state, err);
+
+		});
+		
+
+	}
+
+
+	// -----------------------------------------------------------------------
+	// -- cancelShutdown : Cancel a shutdown that's in progress (from a request)
+	
+	this.cancelShutdown = function(callback) {
+
+		this.issueCommand(constants.CMD_CANCEL_SHUTDOWN,0,true,function(err) {
+
+			// Handle potential errors.			
+			if (err) {
+				this.errorMessage('Dang, couldnt get cancel a shutdown!',err);
+			}
+
+			// Return in a callback.
+			callback && callback.call( this, err);
+
+		});
+
+
+	}
+
+	// ---------------------------------------------------------
 	// -- ignitionLastChanged : Get the last time the ignition was changed.
 	// -- Takes in_minutes as a parameter. If in_minutes is true, returns the time in minutes.
 	// -- Maximum for seconds is approximately 18 hours. (before it rolls over)

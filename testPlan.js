@@ -15,6 +15,95 @@ module.exports = function(moment,wireInterface) {
 
 	console.log("Test plan has begun....");
 
+
+	// --------------------------------------------------------------------------------------------------
+	// -- watchDogOffCancelAShutdown : Cancel a shutdown that's in progress.
+
+	this.watchDogOffCancelAShutdown = function() {
+
+		console.log("Test plan for: cancelling a shutdown that's in progress");
+
+		// Show the starting info.
+		this.showInfo();
+		// Enter debug mode (turn off ignition detect, as we'll set it manually).
+		this.enterDebugMode();
+		// Immediately turn off watchdog mode.
+		wireInterface.setWatchDog(false,function(err){
+			console.log("--> Turned off watchdog!");
+		});
+
+		// 2 second later, turn the ignition off.
+		setTimeout((function() {
+		        this.timeLine();
+		        wireInterface.debugSetIgnitionManually(false,function(err){ 
+		                console.log("--> Set ignition off.");
+		        });
+		        this.showInfo();
+		}).bind(this), 2000);
+
+		// And another second later, request that shutdown.
+		setTimeout((function() {
+		        this.timeLine();
+		        wireInterface.requestShutdown(false,15,function(err){ 
+		                console.log("--> Requested shutdown, scheduled in 15 seconds....");
+		        });
+		        this.showInfo();
+		}).bind(this), 3000);
+
+		// At the 10 second mark, cancel the shutdown.
+		setTimeout((function() {
+		        this.timeLine();
+		        wireInterface.cancelShutdown(function(err){ 
+		                console.log("--> Cancelled shutdown!");
+		        });
+		        this.showInfo();
+		}).bind(this), 10000);
+
+	};
+
+	// --------------------------------------------------------------------------------------------------
+	// -- watchDogOffRequestShutdown : set the watchdog off, and shutdown by request.
+
+
+	this.watchDogOffRequestShutdown = function(is_minutes,in_value) {
+
+		console.log("Test plan for: shutting off watchdog by schedule.");
+
+		// Show the starting info.
+		this.showInfo();
+		// Enter debug mode (turn off ignition detect, as we'll set it manually).
+		this.enterDebugMode();
+		// Immediately turn off watchdog mode.
+		wireInterface.setWatchDog(false,function(err){
+			console.log("--> Turned off watchdog!");
+		});
+
+		// 2 second later, turn the ignition off.
+		setTimeout((function() {
+		        this.timeLine();
+		        wireInterface.debugSetIgnitionManually(false,function(err){ 
+		                console.log("--> Set ignition off.");
+		        });
+		        this.showInfo();
+		}).bind(this), 2000);
+
+
+		// And another second later, request that shutdown.
+		setTimeout((function() {
+		        this.timeLine();
+		        wireInterface.requestShutdown(is_minutes,in_value,function(err){ 
+		        		noun = "seconds";
+		        		if (is_minutes) {
+		        			noun = "minutes";
+		        		}
+		                console.log("--> Requested shutdown, scheduled in " + in_value + " " + noun + "....");
+		        });
+		        this.showInfo();
+		}).bind(this), 3000);
+
+
+	};
+
 	// --------------------------------------------------------------------------------------------------
 	// -- normalBootAndShutdown : Exactly that, a normal boot, normal operation, and normal shutdown.
 	
@@ -304,8 +393,17 @@ module.exports = function(moment,wireInterface) {
 	                console.log("--> Test value:",testvalue);
 	        });
 
+	        wireInterface.getWatchDog(function(wdtmode,err){
+	                console.log("--> Watchdog Mode Enabled:",wdtmode);
+	        });
+
+
 	        wireInterface.debugGetWatchDogState(function(wdtstate,err){
-	                console.log("--> Watchdog State:",wdtstate);
+	                console.log("--> Watchdog Interal State:",wdtstate);
+	        });
+
+	        wireInterface.getShutdownState(function(shutdownstate,err){
+	                console.log("--> Request Shutdown State:",shutdownstate);
 	        });
 
 	}

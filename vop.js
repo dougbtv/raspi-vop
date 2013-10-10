@@ -19,7 +19,17 @@ wireInterface = new WireInterface(wire,constants);
 // --------------------------------------------------
 
 testPlan = new TestPlan(moment,wireInterface);
-testPlan.errorBlaster(10000);
+
+testPlan.watchDogOffCancelAShutdown();
+
+// -- Request a shutdown in 2 minutes
+// testPlan.watchDogOffRequestShutdown(true,2);
+
+// -- Request a shut down in 15 seconds.
+// testPlan.watchDogOffRequestShutdown(false,15);
+
+// -- Test the i2c error rate by loading this with tons of tests as fast as you can.
+// testPlan.errorBlaster(10000);
 
 // -- Test Method, boot fails, but ignition is on (expect reboot)
 // testPlan.bootFailsIngitionON();
