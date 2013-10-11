@@ -14,13 +14,41 @@ var wire = new i2c(address, {device: constants.I2C_DEVICE}); // point to your i2
 wireInterface = new WireInterface(wire,constants);
 
 
-// --------------------------------------------------
-// ----- Testing script.
-// --------------------------------------------------
+var restify = require('restify');
 
-testPlan = new TestPlan(moment,wireInterface);
+function respond(req, res, next) {
+	/*
+	console.log("the req",req);
+	console.log("the res",res);
+	console.log("the next",next);
+	*/
+	// res.send('hello ' + req.params.name);
+	console.log('ze req!',req.params);
+	res.contentType = 'json';
+	res.send({message: "hello", guy: req.params.name});
+}
 
-testPlan.watchDogOffCancelAShutdown();
+var server = restify.createServer();
+server.use(restify.bodyParser());
+
+server.get('/hello/:name', respond);
+server.post('/hello/:name', respond);
+server.head('/hello/:name', respond);
+
+server.listen(8080, function() {
+	console.log('%s listening at %s', server.name, server.url);
+});
+
+// ----------------------------------------------------
+// -- Testing script.
+// This comprises the unit tests for the i2c interface
+// ----------------------------------------------------
+
+// Uncomment this and create a test plan object.
+// testPlan = new TestPlan(moment,wireInterface);
+
+// -- With the watchdog off, initiate a shutdown, then cancel it.
+// testPlan.watchDogOffCancelAShutdown();
 
 // -- Request a shutdown in 2 minutes
 // testPlan.watchDogOffRequestShutdown(true,2);

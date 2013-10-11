@@ -19,9 +19,10 @@
     "raspberrypi"
   ],
   "dependencies" : {
-    "dissolve"   :  "*",
+    "dissolve" :  "*",
     "moment"   :  "*",
-    "sprintf"   :  "*",
-    "i2c"   :  "*"
+    "sprintf"  :  "*",
+    "restify"  :  "*",
+    "i2c"      :  "*"
   }
 }
