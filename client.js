@@ -5,12 +5,24 @@ var client = restify.createJsonClient({
   version: '*'
 });
 
-client.post('/hello/dude', { hello: 'world', foo: 'bar' }, function(err, req, res, obj) {
+client.get('/get-info', function(err, req, res, obj) {
   console.log('%d -> %j', res.statusCode, res.headers);
   console.log('%j', obj);
 });
 
-client.post('/hello/dude', { hello: 'chungo', foo: 'quux' }, function(err, req, res, obj) {
+client.get('/pat', function(err, req, res, obj) {
+  console.log('%d -> %j', res.statusCode, res.headers);
+  console.log('%j', obj);
+})
+
+client.post('/auto-pat', { seconds: 6 }, function(err, req, res, obj) {
   console.log('%d -> %j', res.statusCode, res.headers);
   console.log('%j', obj);
 });
+
+/*
+client.post('/yo/fudge', { hello: 'chungo', foo: 'quux' }, function(err, req, res, obj) {
+  console.log('%d -> %j', res.statusCode, res.headers);
+  console.log('%j', obj);
+});
+*/

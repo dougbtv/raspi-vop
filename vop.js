@@ -14,30 +14,18 @@ var wire = new i2c(address, {device: constants.I2C_DEVICE}); // point to your i2
 wireInterface = new WireInterface(wire,constants);
 
 
+// Restify object, for making RESTful APIs
 var restify = require('restify');
 
-function respond(req, res, next) {
-	/*
-	console.log("the req",req);
-	console.log("the res",res);
-	console.log("the next",next);
-	*/
-	// res.send('hello ' + req.params.name);
-	console.log('ze req!',req.params);
-	res.contentType = 'json';
-	res.send({message: "hello", guy: req.params.name});
-}
-
+// Setup restify
 var server = restify.createServer();
 server.use(restify.bodyParser());
 
-server.get('/hello/:name', respond);
-server.post('/hello/:name', respond);
-server.head('/hello/:name', respond);
 
-server.listen(8080, function() {
-	console.log('%s listening at %s', server.name, server.url);
-});
+// Our REST API object, the one we customize.
+var Rest = require("./rest.js");               // This is our test plan, it's a suite of things we can test.
+var rest = new Rest(server,wireInterface);
+
 
 // ----------------------------------------------------
 // -- Testing script.
