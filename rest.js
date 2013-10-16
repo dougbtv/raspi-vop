@@ -44,6 +44,18 @@ module.exports = function(server,wire) {
 			case "auto-pat":
 				return_json = this.setAutoPat(req.params.seconds);
 				break;
+			case "end-auto-pat":
+				return_json = this.autoPatEnd();
+				break;
+			case "disable-watchdog":
+				return_json = this.setWatchDog(false);
+				break;
+			case "enable-watchdog":
+				return_json = this.setWatchDog(true);
+				break;
+			case "shutdown":
+				return_json = this.shutDown(req.params.unit,req.params.value);
+				break;
 			default:
 				return_json = {error: "Unknown command."};
 				// That's an error of sorts.
@@ -59,6 +71,62 @@ module.exports = function(server,wire) {
 		res.send(return_json);
 
 	}.bind(this);
+
+	this.shutDown = function(units,in_value) {
+
+		// Check an error on shutdown request.
+		is_error = false;
+
+		// Determine if minutes, seconds, or unknown unit.
+		is_minutes = false;
+		switch (units) {
+			case "seconds":
+				is_minutes = false;
+				break;
+			case "minutes":
+				is_minutes = true;
+				break;
+			default:
+				return {error: true, error_message: "Unknown unit, " + units};
+				break;
+		}
+
+		wireInterface.requestShutdown(is_minutes,in_value,function(err){ 
+			if (err) { is_error = true; }
+		});
+
+		// Return json.
+		return {error: is_error};
+
+	};
+
+	// --------------------------------------------------------------------
+	// -- setWatchDog : Enable / disable watchdog based (set state true for enabled, false for disabled.)
+
+	this.setWatchDog = function(state) {
+
+		// Check an error on this pat.
+		is_error = false;
+
+		wireInterface.setWatchDog(state,function(err){
+			if (err) { is_error = true; }
+		});
+
+		// Return json.
+		return {error: is_error};
+
+	};
+
+	// --------------------------------------------------------------------
+	// -- autoPatEnd : End a series of autopats, doesn't do much unless you're already auto-patting.
+
+	this.autoPatEnd = function() {
+
+		// Just turn off auto-patting.
+		this.autopat_enabled = false;
+		return {error: false};
+
+	};
 
 	// --------------------------------------------------------------------
 	// -- setAutoPat : Start auto-patting the dog, every N seconds.
