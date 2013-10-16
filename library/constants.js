@@ -9,6 +9,13 @@ function define(name, value) {
     });
 }
 
+// ---------------------------------- Client options.
+define('TURN_OFF_AFTER_SECONDS',1*60) 	// IMPORTANT: When the ignition is off for this many seconds, the raspberry pi will shutdown.
+define('SHUTDOWN_COMMAND','/root/raspi-vop/shutdown.sh');			// IMPORTANT: The command we'll issue to shutdown. Defaults to an example bash script, which will shutdown the raspi.
+define('AUTOPAT_INTERVAL',6);			// How often we autopat, in seconds.
+define('GET_STATE_INTERVAL',5);			// How often we get the state of the ignition, in seconds.
+
+
 // ---------------------------------- Debug constants.
 define('DEBUG',false);
 

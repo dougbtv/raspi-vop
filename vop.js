@@ -1,3 +1,15 @@
+// --------------------------------------------------------
+//              _____ _____    ____                        
+//  _ _ ___ ___|     |  _  |  |    \ ___ ___ _____ ___ ___ 
+// | | | -_| -_|  |  |   __|  |  |  | .'| -_|     | . |   |
+//  \_/|___|___|_____|__|     |____/|__,|___|_|_|_|___|_|_|
+//
+// --------------------------------------------------------
+// This script starts up everything you need to talk to
+// to the veeOP. It uses I2C to talk to the veeOP, and
+// then you can use a REST client to talk to this.
+// --------------------------------------------------------                                                      
+
 var constants = require("./library/constants.js");             	// Constants module (w/ general configs)
 var WireInterface = require("./library/wireInterface.js");     	// Our module for interfacing on the wire with i2c.
 var TestPlan = require("./library/testPlan.js");               	// This is our test plan, it's a suite of things we can test.
@@ -25,11 +37,9 @@ var restify = require('restify');
 var server = restify.createServer();
 server.use(restify.bodyParser());
 
-
 // Our REST API object, the one we customize.
 var Rest = require("./library/rest.js");               // This is our test plan, it's a suite of things we can test.
 var rest = new Rest(server,wireInterface,logger);
-
 
 // ----------------------------------------------------
 // -- Testing script.

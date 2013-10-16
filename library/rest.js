@@ -21,7 +21,7 @@ module.exports = function(server,wire,logger) {
 		server.head('/:mode/:submode', this.responseHandler);
 
 		server.listen(8080, function() {
-			console.log('%s listening at %s', server.name, server.url);
+			logger.log(server.name + ' listening at ' + server.url);
 		});
 
 	};
@@ -136,7 +136,7 @@ module.exports = function(server,wire,logger) {
 	};
 
 	// --------------------------------------------------------------------
-	// -- setAutoPat : Start auto-patting the dog, every N seconds.
+	// -- autoPatter : Issue the pats when set automatically.
 
 	this.autoPatter = function(seconds) {
 
@@ -178,8 +178,11 @@ module.exports = function(server,wire,logger) {
 			if (err) { is_error = true; }
 		});
 
-		// Call the autopat method, which will recurse.
-		this.autoPatter(seconds);
+		// If the first pat failed, something might be up. Allow error handling to take care of this.
+		if (!is_error) {
+			// Call the autopat method, which will recurse.
+			this.autoPatter(seconds);
+		}
 
 		// Return empty json.
 		return {error: is_error};
@@ -236,7 +239,7 @@ module.exports = function(server,wire,logger) {
 			info.watchdog_enabled = wdtmode;
 		});
 
-		console.log(JSON.stringify(info, null, 4));
+		// console.log(JSON.stringify(info, null, 4));
 
 		return info;
 
