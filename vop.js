@@ -1,8 +1,13 @@
 var constants = require("./constants.js");             // Constants module (w/ general configs)
 var WireInterface = require("./wireInterface.js");     // Our module for interfacing on the wire with i2c.
 var TestPlan = require("./testPlan.js");               // This is our test plan, it's a suite of things we can test.
-
 var moment = require('moment');                        // Moment.js module, mostly for debugging (so far).
+var Syslog = require('node-syslog');
+var Logger = require('./logger.js');
+var logger = new Logger(Syslog);			// Perform our syslog initialization / create our logger object.
+
+// Yep, we're starting!
+logger.log("veeOP Daemon started.");
 
 // ------- Initialize the i2c module
 // -- Docs @ https://github.com/kelly/node-i2c
@@ -11,8 +16,7 @@ var address = constants.I2C_ADDRESS;
 var wire = new i2c(address, {device: constants.I2C_DEVICE}); // point to your i2c address, debug provides REPL interface
 
 // Add an interface to our wire object.
-wireInterface = new WireInterface(wire,constants);
-
+wireInterface = new WireInterface(wire,constants,logger);
 
 // Restify object, for making RESTful APIs
 var restify = require('restify');
@@ -24,7 +28,7 @@ server.use(restify.bodyParser());
 
 // Our REST API object, the one we customize.
 var Rest = require("./rest.js");               // This is our test plan, it's a suite of things we can test.
-var rest = new Rest(server,wireInterface);
+var rest = new Rest(server,wireInterface,logger);
 
 
 // ----------------------------------------------------

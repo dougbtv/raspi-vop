@@ -6,7 +6,8 @@
 
 // Here it takes the wire object, from the i2c module, and constants module.
 
-module.exports = function(wire,constants) {
+module.exports = function(wire,constants,logger) {
+
 
 	this.last_error = '';
 
@@ -426,7 +427,7 @@ module.exports = function(wire,constants) {
 	this.errorMessage = function(message,item) {
 
 		// Send a message to the console.
-		console.log("ERROR: " + message,item);
+		logger.log("ERROR: " + message + ":" + item);
 		// Keep it so you can look it up if need be.
 		this.last_error = message;
 

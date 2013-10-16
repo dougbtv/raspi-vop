@@ -19,10 +19,11 @@
     "raspberrypi"
   ],
   "dependencies" : {
-    "dissolve" :  "*",
-    "moment"   :  "*",
-    "sprintf"  :  "*",
-    "restify"  :  "*",
-    "i2c"      :  "*"
+    "dissolve"    :  "*",
+    "moment"      :  "*",
+    "sprintf"     :  "*",
+    "restify"     :  "*",
+    "node-syslog" :  "*",
+    "i2c"         :  "*"
   }
 }

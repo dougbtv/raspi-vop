@@ -1,5 +1,5 @@
 
-module.exports = function(server,wire) {
+module.exports = function(server,wire,logger) {
 
 	this.autopat_enabled = false;
 
@@ -74,6 +74,8 @@ module.exports = function(server,wire) {
 
 	this.shutDown = function(units,in_value) {
 
+		logger.log("REST: Requesting shutdown in " + in_value + " " + units);
+
 		// Check an error on shutdown request.
 		is_error = false;
 
@@ -105,6 +107,8 @@ module.exports = function(server,wire) {
 
 	this.setWatchDog = function(state) {
 
+		logger.log("REST: Setting watchdog to " + state);
+
 		// Check an error on this pat.
 		is_error = false;
 
@@ -121,6 +125,9 @@ module.exports = function(server,wire) {
 	// -- autoPatEnd : End a series of autopats, doesn't do much unless you're already auto-patting.
 
 	this.autoPatEnd = function() {
+
+
+		logger.log("REST: Ending autopats");
 
 		// Just turn off auto-patting.
 		this.autopat_enabled = false;
@@ -143,7 +150,7 @@ module.exports = function(server,wire) {
 			
 			// Pat the dog.
 			wireInterface.patTheDog(function(err){
-				console.log("did an autopat.");
+				// console.log("did an autopat.");
 			});
 			// Now, let's call ourself!
 			this.autoPatter(seconds);
@@ -157,6 +164,8 @@ module.exports = function(server,wire) {
 	// -- setAutoPat : Start auto-patting the dog, every N seconds.
 
 	this.setAutoPat = function(seconds) {
+
+		logger.log("REST: Set autopats @ " + seconds + " second interval");
 
 		// Check an error on this pat.
 		is_error = false;
