@@ -1,10 +1,10 @@
-var constants = require("./constants.js");             // Constants module (w/ general configs)
-var WireInterface = require("./wireInterface.js");     // Our module for interfacing on the wire with i2c.
-var TestPlan = require("./testPlan.js");               // This is our test plan, it's a suite of things we can test.
-var moment = require('moment');                        // Moment.js module, mostly for debugging (so far).
-var Syslog = require('node-syslog');
-var Logger = require('./logger.js');
-var logger = new Logger(Syslog);			// Perform our syslog initialization / create our logger object.
+var constants = require("./library/constants.js");             	// Constants module (w/ general configs)
+var WireInterface = require("./library/wireInterface.js");     	// Our module for interfacing on the wire with i2c.
+var TestPlan = require("./library/testPlan.js");               	// This is our test plan, it's a suite of things we can test.
+var moment = require('moment');                        		// Moment.js module, mostly for debugging (so far).
+var Syslog = require('node-syslog');				// Node-syslog module.
+var Logger = require('./library/logger.js');			// Our logging module.
+var logger = new Logger(Syslog);				// Perform our syslog initialization / create our logger object.
 
 // Yep, we're starting!
 logger.log("veeOP Daemon started.");
@@ -27,7 +27,7 @@ server.use(restify.bodyParser());
 
 
 // Our REST API object, the one we customize.
-var Rest = require("./rest.js");               // This is our test plan, it's a suite of things we can test.
+var Rest = require("./library/rest.js");               // This is our test plan, it's a suite of things we can test.
 var rest = new Rest(server,wireInterface,logger);
 
 
